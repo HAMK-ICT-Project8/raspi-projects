@@ -1,2 +1,2 @@
 # raspi-projects
-Projects using communication between Unreal Engine and Raspberry Pi.
+Projects utilizing communication between Unreal Engine and Raspberry Pi.
