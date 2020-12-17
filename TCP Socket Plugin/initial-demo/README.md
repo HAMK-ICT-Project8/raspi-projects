@@ -61,10 +61,11 @@ This demo was created using Unreal Engine 4.25.4 and TCP Socket Plugin 1.0.
 3. And make it executable:
 		
 		chmod +x demo.sh
+		
 4. Run `ip add` command and look up the local IP address of your device. It's
    either under `eth0` interface if you have a wired connection or under
    `wlan0` if wireless. This is needed for setting up the Unreal Engine
-   blueprint.
+   Blueprint.
 
 ### Unreal Engine
 1. Create a new blank Blueprint project.
