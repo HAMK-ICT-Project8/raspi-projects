@@ -72,11 +72,11 @@ This demo was created using Unreal Engine 4.25.4 and TCP Socket Plugin 1.0.
 2. Download TCP Socket Plugin from Unreal Engine Marketplace and optionally
    move the plugin to your project.
 3. Copy
-   [RasPiTCP.uasset](https://github.com/HAMK-ICT-Project8/raspi-projects/blob/main/TCP%20Socket%20Plugin/initial-demo/RasPiTCP.uasset)
+   [RasPiTCP.uasset](./RasPiTCP.uasset)
    to somewhere within `<your project>/Content/` where you like store your
    blueprints. In Unreal Editor the blueprint should look like
-   [this](https://github.com/HAMK-ICT-Project8/raspi-projects/blob/main/TCP%20Socket%20Plugin/initial-demo/RasPiTCP.png).
-   In `Connect` node insert the local IP of your Raspberry Pi.
+   [this](../../RasPiTCP.png).  In `Connect`
+   node insert the local IP of your Raspberry Pi.
 4. Add the class to your game world.
 
 ## Usage

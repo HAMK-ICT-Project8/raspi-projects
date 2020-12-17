@@ -51,8 +51,8 @@ This demo was created using Unreal Engine 4.25.4 and ArduinoKit from [our reposi
 		
 2. Download `demo.sh` and `serial-over-bt.sh` to Raspberry Pi, for example like this: 
 		
-		wget ./bt-demo.sh  \
-			./serial-over-bt.sh
+		wget https://raw.githubusercontent.com/HAMK-ICT-Project8/raspi-projects/main/ArduinoKit/initial-demo/bt-demo.sh  \
+			https://raw.githubusercontent.com/HAMK-ICT-Project8/raspi-projects/main/ArduinoKit/initial-demo/serial-over-bt.sh
 		
 3. And make them executable:
 		
@@ -66,19 +66,16 @@ This demo was created using Unreal Engine 4.25.4 and ArduinoKit from [our reposi
 
 ### Unreal Engine
 1. Create a new blank Blueprint project.
-2. Install ArduinoKit plugin to your project according to
-   [the instructions](https://github.com/HAMK-ICT-Project8/ArduinoKit#how-to-use-it).
+2. Install ArduinoKit plugin to your project according to [the
+   instructions](https://github.com/HAMK-ICT-Project8/ArduinoKit#how-to-use-it).
 3. Replace the existing files with
-   [Minimal_Default_BuiltData.uasset](./Minimal_Default_BuiltData.uasset)
-   and
-   [Minimal_Default.umap](./Minimal_Default.umap)
-   in `<your project>/Content/StarterContent/Maps`. In Unreal Editor the
-   Blueprint should look like
-   [this](./Minimal_Default.png)
-   with a function like 
-   [this](./ReadSerial.png).
-   In `Open` node insert the serial port of your Raspberry Pi. To find the
-   right serial port, you can follow the Bluetooth pairing section in
+   [Minimal_Default_BuiltData.uasset](./Minimal_Default_BuiltData.uasset) and
+   [Minimal_Default.umap](./Minimal_Default.umap) in `<your
+   project>/Content/StarterContent/Maps`. In Unreal Editor the Blueprint should
+   look like [this](./Minimal_Default.png) with a function like
+   [this](./ReadSerial.png).  In `Open` node insert the serial port of your
+   Raspberry Pi. To find the right serial port, you can follow the Bluetooth
+   pairing section in
    [here](https://github.com/HAMK-ICT-Project8/arduino-projects/tree/main/Cluster%20Communication%20Port/Ambient%20LED%20via%20BT#usage).
 
 ## Usage
